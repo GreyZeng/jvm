@@ -51,5 +51,5 @@ JVM中的八大原子指令
 - write
 - unlock
 
-
-Writes and reads of volatile long and double values are always atomic.
+ 
+Writes and reads of volatile long and double values are always atomic.   ----jls15 17.7
