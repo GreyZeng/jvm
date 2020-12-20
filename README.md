@@ -41,3 +41,12 @@ JVM是一种规范
 常量池里面的内容
 Code中的指令
 具体指令见虚拟机规范
+
+JVM中的八大原子指令
+- lock
+- read
+- load
+- use
+- assign
+- write
+- unlock
