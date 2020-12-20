@@ -50,3 +50,6 @@ JVM中的八大原子指令
 - assign
 - write
 - unlock
+
+
+Writes and reads of volatile long and double values are always atomic.
