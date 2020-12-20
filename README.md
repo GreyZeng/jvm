@@ -1,5 +1,15 @@
 # JVM学习笔记
 
+作者：[Grey](https://www.cnblogs.com/greyzeng)
+
+原文地址：
+
+[Github](https://github.com/GreyZeng/jvm/blob/master/README.md)
+
+[语雀](https://www.yuque.com/greyzeng/uzfhep/fnxlbm)
+
+[博客园](https://www.cnblogs.com/greyzeng/p/14166071.html)
+
 ## Java从编码到执行的过程
 1. Java文件通过javac生成class文件，
 1. class文件在执行java命令的时候，通过ClassLoader将其load到内存（同时还有相关的Java类库）
