@@ -4,18 +4,6 @@
 作者：[Grey](https://www.cnblogs.com/greyzeng)
 
 
-原文地址：
-
-
-[Github](https://github.com/GreyZeng/jvm/blob/master/README.md)
-
-
-[语雀](https://www.yuque.com/greyzeng/uzfhep/fnxlbm)
-
-
-[博客园](https://www.cnblogs.com/greyzeng/p/14166071.html)
-
-
 ## Java从编码到执行的过程
 
 
@@ -25,11 +13,14 @@
 1. 通过执行引擎开始执行。
 
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/757806/1608653212241-9a3a60ff-0cbb-4ade-a382-84dcdb7450c8.png#align=left&display=inline&height=535&margin=%5Bobject%20Object%5D&name=image.png&originHeight=535&originWidth=501&size=36580&status=done&style=none&width=501)
+
 任何语言，只要能变成class文件，就可以在JVM上执行。
 
 
 JVM是一种规范
+
 当前（2020-12-20）最新的规范：
+
 [https://docs.oracle.com/javase/specs/jvms/se15/jvms15.pdf](https://docs.oracle.com/javase/specs/jvms/se15/jvms15.pdf)
 
 
@@ -61,4 +52,6 @@ JVM中的八大原子指令
 
 Writes and reads of volatile long and double values are always atomic.   ----jls15 17.7
 
-# 待续...
+## 自定义类加载器
+
+
