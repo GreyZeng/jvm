@@ -6,15 +6,12 @@ public class Test {
     static  boolean flag = true;
     // -Xint选项
     public static void main(String[] args) throws IOException {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("start");
-                while (flag) {
+        new Thread(() -> {
+            System.out.println("start");
+            while (flag) {
 
-                }
-                System.out.println("end");
             }
+            System.out.println("end");
         }).start();
         try {
             Thread.sleep(3 * 1000);
