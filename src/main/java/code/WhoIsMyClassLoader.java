@@ -1,4 +1,4 @@
-package git.snippets.jvm;
+package code;
 
 public class WhoIsMyClassLoader {
     public static void main(String[] args) {

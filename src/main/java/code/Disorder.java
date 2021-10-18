@@ -1,4 +1,4 @@
-package git.snippets.jvm;
+package code;
 
 public class Disorder {
     private static int x = 0, y = 0;
